@@ -16,8 +16,10 @@ To use this repository, please refer to our paper:
  ### Details about the Contexts in the FLASH dataset:
  * Context1: Category1 (LOS)
  * Context2: Category2 (NLOS, pedestrian as obstacle)
-  * Context3: Category3 (NLOS, static car as obstacle)
-   * Context4: Category4 (LOS, moving car as obstacle)
+ * Context3: Category3 (NLOS, static car as obstacle)
+ * Context4: Category4 (LOS, moving car as obstacle)
+ 
+ For more details please consult our paper: https://genesys-lab.org/papers/Infocom_FLASH.pdf
  
 ### Run the Context Prediction Code:
 We use a fixed seed throughout all experiments. Run the commands below to generate the seed and global test data accordingly. Remember to change to base path to your own local machine. Run the training/validation/testing of the context prediction pipeline by running: `python main.py`
